@@ -2,6 +2,6 @@ Th
 anks for downloading this template!
 
 Template Name: Lonely
-Template URL: https://bootstrapmade.com/free-html-bootstrap-template-lonely/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Template URL: https://midhun124.github.io/Midhun-Balachandran/
+Author: Midhun Balachandran
+License: https://midhun124.github.io/Midhun-Balachandran/
