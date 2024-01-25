@@ -292,17 +292,23 @@ if (mybutton) {
   console.log("Element with ID 'back-to-top' does not exist");
 }
 
+// Get the modal
 var modal = document.getElementById("myModal");
+// Get the image and insert it inside the modal
 var img = document.getElementById("myImg");
 var modalImg = document.getElementById("img01");
-
+// Get the navigation toggle button
+var navToggler = document.querySelector(".mobile-nav-toggle");
+// When the user clicks on the image, open the modal
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
+  navToggler.style.display = "none";
 }
-
+// Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
-
+// When the user clicks on <span> (x), close the modal
 span.onclick = function() { 
   modal.style.display = "none";
+  navToggler.style.display = "inline-flex";
 }
